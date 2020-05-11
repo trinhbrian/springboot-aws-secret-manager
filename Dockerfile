@@ -1,4 +1,6 @@
 FROM maven:3.5-jdk-8-alpine as build
+COPY pom.xml .
+COPY src src
 RUN mvn install
 
 FROM openjdk:8-jdk-alpine
