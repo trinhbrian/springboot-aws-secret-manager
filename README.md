@@ -8,6 +8,7 @@ Read more : https://medium.com/@sopheamak/aws-secret-manager-service-as-applicat
 # Requirements
 1 - Java OpenJDK 1.8 to up
 2 - Spring boot version 2x
+test
 3 - spring cloud framework
 
 # dependencies with spring cloud AWS
