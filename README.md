@@ -80,7 +80,7 @@ java -jar app.jar
 
 
 ````
-curl http://13.250.38.249:8090/api/test/v1
+curl http://13.250.38.249:8080/api/test/v1
 
 {
 environment: "aws",
