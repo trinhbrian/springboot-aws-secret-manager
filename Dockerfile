@@ -6,4 +6,4 @@ RUN mvn package
 FROM openjdk:8-jre-alpine
 WORKDIR /app
 COPY --from=MAVEN_BUILD /build/target/app.jar /app/
-ENTRYPOINT ["java","-jar","-Dspring.profiles.active=local","app.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
