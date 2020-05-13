@@ -30,7 +30,7 @@ public class TestController {
     public Map<String, Object> getProperties(HttpServletRequest request) {
 
         final Map<String, Object> map = new HashMap<>();
-        map.put("applicationId", applicationId);
+        map.put("applicationId(brtt)", applicationId);
         map.put("environment", environment);
         map.put("types", categoryTypes);
         return map;
